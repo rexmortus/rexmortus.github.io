@@ -2,6 +2,8 @@
 published: true
 title: Lead with a Question
 layout: post
+tags: [information, trust, interviewing, questioning]
+categories: [epistles]
 ---
 As a [technical recruiter](http://www.lookahead.com.au) my job is to understand technology, people, and teams. A tall order, and given the nature of these subjects, I'm frequently reminded of how much I don't know. Every new technology, person, project... each are something I've never known before. Each is a new story to unfold, rich in unpredictable detail. Against the backdrop of my own unknowing, I've found that it makes sense to ask lots of questions.
 

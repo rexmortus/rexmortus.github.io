@@ -2,6 +2,8 @@
 published: true
 title: Explanation of the Robot, Part I
 layout: post
+tags: [software design, tutorials, ruby]
+categories: [tutorials]
 ---
 Here are some notes I've collected about the famous *Robot Challenge* using Ruby as the reference language. For now, it's called "Part I" because there is still more to write. However so that I'd have reason to complete it, here is section 4: "Application Knowledge".
 

@@ -106,7 +106,7 @@
     
       <item>
         <title>Explanation of the Robot, Part I</title>
-        <description>&lt;p&gt;Here are some notes I’ve collected about the famous &lt;em&gt;Robot Challenge&lt;/em&gt; (Ruby). For now, it’s called “Part I” because there is still more to write. However for the sake of inviting reason to complete it, it’s published here in an incomplete form.&lt;/p&gt;
+        <description>&lt;p&gt;Here are some notes I’ve collected about the famous &lt;em&gt;Robot Challenge&lt;/em&gt; using Ruby as the reference language. For now, it’s called “Part I” because there is still more to write. However so that I’d have reason to complete it, here is section 4: “Application Knowledge”.&lt;/p&gt;
 
 &lt;h2 id=&quot;application-knowledge&quot;&gt;4 Application Knowledge&lt;/h2&gt;
 
@@ -116,7 +116,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;How to read input from the user, both dynamically and from a file&lt;/li&gt;
-  &lt;li&gt;How to intrperet input as commands for the robot&lt;/li&gt;
+  &lt;li&gt;How to interpret input as commands for the robot&lt;/li&gt;
   &lt;li&gt;What are acceptable commands&lt;/li&gt;
   &lt;li&gt;How to move the robot around a surface&lt;/li&gt;
 &lt;/ul&gt;
@@ -125,7 +125,7 @@
 
 &lt;h3 id=&quot;reading-input&quot;&gt;4.1 Reading input&lt;/h3&gt;
 
-&lt;p&gt;The very first thing our application must know is how to accept input from the user. According to the brief, there are two modes to accomodate - real-time input, and input from text files.&lt;/p&gt;
+&lt;p&gt;The very first thing our application must know is how to accept input from the user. According to the brief, there are two modes to accommodate - real-time input, and input from text files.&lt;/p&gt;
 
 &lt;p&gt;In particular, the challenge is to build a flexible and robust interface which handles both modes &lt;em&gt;while writing a minimum of code&lt;/em&gt;. This is an interesting problem because our design here will have serious ramifications for the overall complexity of our solution.&lt;/p&gt;
 
@@ -135,11 +135,11 @@
   &lt;p&gt;Its hard to avoid programming overcomplicated monoliths if none of your programs can talk to each other.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;By designing our application’s interface to easily communicate with other programs, we save ourselves the trouble of writing and maintaining two separate interfaces (one for streams and one for files), and negate the need for a lot of complicated code. This is called “The Rule of Composition”, which advises us to keep our program interfaces textual and stream-oriented. In this case, our goal is to design a singular interface that can handle both streams and files with one codepath.&lt;/p&gt;
+&lt;p&gt;By designing our application’s interface to easily communicate with other programs, we save ourselves the trouble of writing and maintaining two separate interfaces (one for streams and one for files), and negate the need for a lot of complicated code. This is called “The Rule of Composition”, which advises us to keep our program interfaces textual and stream-oriented. In this case, our goal is to design a singular interface that can handle both streams and files with one code path.&lt;/p&gt;
 
 &lt;h3 id=&quot;interpreting-and-delegating-input&quot;&gt;4.2 Interpreting and delegating input&lt;/h3&gt;
 
-&lt;p&gt;The second thing our application must know is how to interperet this textual input.&lt;/p&gt;
+&lt;p&gt;The second thing our application must know is how to interpret this textual input.&lt;/p&gt;
 
 &lt;p&gt;In particular, the challenge is to parse the input into a format the &lt;code&gt;Robot&lt;/code&gt; can eventually understand, without duplicating knowledge of “what are acceptable commands” and without resorting to needlessly complex structures or algorithms.&lt;/p&gt;
 

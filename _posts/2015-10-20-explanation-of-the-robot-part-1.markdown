@@ -3,7 +3,7 @@ published: true
 title: Explanation of the Robot, Part I
 layout: post
 ---
-Here are some notes I've collected about the famous *Robot Challenge* (Ruby). For now, it's called "Part I" because there is still more to write. However for the sake of inviting reason to complete it, it's published here in an incomplete form.
+Here are some notes I've collected about the famous *Robot Challenge* using Ruby as the reference language. For now, it's called "Part I" because there is still more to write. However so that I'd have reason to complete it, here is section 4: "Application Knowledge".
 
 ## 4 Application Knowledge
 
@@ -12,7 +12,7 @@ A useful starting point when designing an application is to ask the question, "W
 In the robot example, our application needs to know:
 
 - How to read input from the user, both dynamically and from a file
-- How to intrperet input as commands for the robot
+- How to interpret input as commands for the robot
 - What are acceptable commands
 - How to move the robot around a surface
 
@@ -20,7 +20,7 @@ In the following section, we will examine each aspect of application knowledge a
 
 ### 4.1 Reading input
 
-The very first thing our application must know is how to accept input from the user. According to the brief, there are two modes to accomodate - real-time input, and input from text files.
+The very first thing our application must know is how to accept input from the user. According to the brief, there are two modes to accommodate - real-time input, and input from text files.
 
 In particular, the challenge is to build a flexible and robust interface which handles both modes *while writing a minimum of code*. This is an interesting problem because our design here will have serious ramifications for the overall complexity of our solution.
 
@@ -28,11 +28,11 @@ In particular, the challenge is to build a flexible and robust interface which h
 
 > Its hard to avoid programming overcomplicated monoliths if none of your programs can talk to each other.
 
-By designing our application's interface to easily communicate with other programs, we save ourselves the trouble of writing and maintaining two separate interfaces (one for streams and one for files), and negate the need for a lot of complicated code. This is called "The Rule of Composition", which advises us to keep our program interfaces textual and stream-oriented. In this case, our goal is to design a singular interface that can handle both streams and files with one codepath.
+By designing our application's interface to easily communicate with other programs, we save ourselves the trouble of writing and maintaining two separate interfaces (one for streams and one for files), and negate the need for a lot of complicated code. This is called "The Rule of Composition", which advises us to keep our program interfaces textual and stream-oriented. In this case, our goal is to design a singular interface that can handle both streams and files with one code path.
 
 ### 4.2 Interpreting and delegating input
 
-The second thing our application must know is how to interperet this textual input.
+The second thing our application must know is how to interpret this textual input.
 
 In particular, the challenge is to parse the input into a format the `Robot` can eventually understand, without duplicating knowledge of "what are acceptable commands" and without resorting to needlessly complex structures or algorithms.
 

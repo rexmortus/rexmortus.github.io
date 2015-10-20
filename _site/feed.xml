@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rantings of a Stoned Lunatic</title>
+    <description>The personal blog of Alec Sloman aka rexmortus</description>
+    <link>http://rexmortus.github.io/</link>
+    <atom:link href="http://rexmortus.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Lead with a Question</title>
+        <description>&lt;p&gt;As a &lt;a href=&quot;http://www.lookahead.com.au&quot;&gt;technical recruiter&lt;/a&gt; my job is to understand technology, people, and teams. A tall order, and given the nature of these subjects, I’m frequently reminded of how much I don’t know. Every new technology, person, project… each are something I’ve never known before. Each is a new story to unfold, rich in unpredictable detail. Against the backdrop of my own unknowing, I’ve found that it makes sense to ask lots of questions.&lt;/p&gt;
+
+&lt;p&gt;Information is a currency. Sometimes we turn it up through sheer effort, and sometimes it turns up when we least expect it. But without a doubt, the best information tends to come directly from people. People are a great source because we can interface with them through &lt;em&gt;shared meaning&lt;/em&gt;. In the mind, information is connected through meaning. In a discussion, we can help each-other formulate and recall information by posing meaningful questions. Effective questioning leads to shared information and meaning.&lt;/p&gt;
+
+&lt;p&gt;In practice people aren’t the best at asking questions. Sometimes, we simply forget. Sometimes we’re so enamoured with the sound of our own voice, or by the retelling of our own story, that we do all the talking. What does that actually get us, though? We already know what we know. Surely if we just hang back and ask a question instead, we’ll be better for it.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Listen, and wait for the right moment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Before we consider what to ask, we should know when is the right time to ask. The outcome of a discussion is largely determined by the effectiveness of our questioning, and if the participants are stumbling over each-other to add their two cents, it will almost certainly become degraded. Worse still, the meaning of that information can diverge which leads to all kinds of subsequent problems.&lt;/p&gt;
+
+&lt;p&gt;So when &lt;em&gt;is&lt;/em&gt; right the moment? With certain notable exceptions, that time is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;after they’ve completed their sentence&lt;/li&gt;
+  &lt;li&gt;after we’ve affirmed in some way that we’ve heard them&lt;/li&gt;
+  &lt;li&gt;after we’ve considered what they’ve said&lt;/li&gt;
+  &lt;li&gt;after we’ve considered what we will say in response&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Even if we must sit in silence for a moment to collect our thoughts (which may feel unnatural at first), taking our time is extremely worthwhile. “Fools rush in” is especially relevant during a discussion.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unless they’ve stopped talking, they’re not done communicating&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You might have received the main information, but that’s not the same as understanding it’s &lt;em&gt;meaning&lt;/em&gt;. The meaning is additional, an extra payload of a thousand tiny details. Meaning gives information context and power. If in discussions we find ourselves forever leaping to the next thing, we should slow down and instead practice taking note of the little contextual details that we might otherwise miss.&lt;/p&gt;
+
+&lt;p&gt;In practice this means listening more and talking less. A simple guideline is &lt;em&gt;80/20&lt;/em&gt;: listen 80% of the time, and speak 20% of the time. In this way we can collect the more subtle personal metadata of the information that’s being shared. This extra information is key to understanding the full meaning of the subject. If you seek understanding, it pays to talk less and notice more.&lt;/p&gt;
+
+&lt;p&gt;Also, people tend to appreciate being listened to. Simply by listening, we generate goodwill, one of the preconditions for trust. And at the same time, we’re collecting the needed information for creating shared meaning.&lt;/p&gt;
+
+&lt;p&gt;Therefore it makes sense to not interrupt someone while they’re trying to communicate with you. Just hang back a bit, and listen. You’ll learn more, and the relationship will benefit.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You might have it wrong&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We tend to assume that our thoughts reflect reality, but this is often not the case. Our senses, perceptions, and ideas are biased, fragmentary, and sometimes plain wrong. Acting on our first impulse is not a reliable way to do the right thing, and by charging through a discussion our error rate only goes up. Instead, we should slow down and practice being more considered.&lt;/p&gt;
+
+&lt;p&gt;After listening carefully, we should acknowledge that we’ve received the information. Since we’re now on the verge of committing the information to memory, we should touch base with our internal chatter and notice what it’s saying. There’s a strong chance that we’re interpreting the information through one or many biases. So we notice them, name them, and work with them if we can. If we feel that we’re getting the meaning wrong, we should seek to clarify it.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Asking the question&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are many different ways of formulating a question, but here are some guidelines that I’ve found helpful:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Be concise&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Elaborate questions are confusing. Even when we have to provide some initial context, the question itself should be punchy. “What do you think of x”, “what do you know about y”. If the meaning of a question is unclear, we should give them a chance to clarify it with us.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Relate the information back to you&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Draw up some information of your own, and formulate it as an affirmation of shared meaning.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Yeah, I know… front-end development is a different story these days. It’s taken a giant leap forward recently!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Statements like this one should be a large slice of our 80/20 quota. By relating their meaning to our own, and then sharing it back, we create shared meaning, which is an important precondition for trust.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Progressing the discussion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Progressing a discussion is actually pretty simple. You just pose a question which invites elaboration…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“So, React.js. What do you think of it?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;…or changes the subject:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“So, what about back-end development? Tell about me your experience there.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Notice the open-ended nature of these questions? This is generally good practice because when we overly constrain the parameters of our question, we lose access to all sorts of important information they might otherwise have shared. If we need to constrain our question further, we can do so, after they’ve answered, in a follow-up question.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lead with a Question&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Discussions don’t progress on their own. Each person plays their own unique and valuable part. So what about the part of leader? Is there some way to measure it? I’ve wondered… could it be person who draws forth the most information, and creates the most meaning? If that’s true, then whoever asks the best questions is winning.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Oct 2015 00:00:00 +1100</pubDate>
+        <link>http://rexmortus.github.io/2015/10/20/lead-with-a-question.html</link>
+        <guid isPermaLink="true">http://rexmortus.github.io/2015/10/20/lead-with-a-question.html</guid>
+      </item>
+    
+      <item>
+        <title>Explanation of the Robot, Part I</title>
+        <description>&lt;p&gt;Here are some notes I’ve collected about the famous &lt;em&gt;Robot Challenge&lt;/em&gt; (Ruby). For now, it’s called “Part I” because there is still more to write. However for the sake of inviting reason to complete it, it’s published here in an incomplete form.&lt;/p&gt;
+
+&lt;h2 id=&quot;application-knowledge&quot;&gt;4 Application Knowledge&lt;/h2&gt;
+
+&lt;p&gt;A useful starting point when designing an application is to ask the question, “What does this application need to know?”&lt;/p&gt;
+
+&lt;p&gt;In the robot example, our application needs to know:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How to read input from the user, both dynamically and from a file&lt;/li&gt;
+  &lt;li&gt;How to intrperet input as commands for the robot&lt;/li&gt;
+  &lt;li&gt;What are acceptable commands&lt;/li&gt;
+  &lt;li&gt;How to move the robot around a surface&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the following section, we will examine each aspect of application knowledge and discuss their particular design concerns.&lt;/p&gt;
+
+&lt;h3 id=&quot;reading-input&quot;&gt;4.1 Reading input&lt;/h3&gt;
+
+&lt;p&gt;The very first thing our application must know is how to accept input from the user. According to the brief, there are two modes to accomodate - real-time input, and input from text files.&lt;/p&gt;
+
+&lt;p&gt;In particular, the challenge is to build a flexible and robust interface which handles both modes &lt;em&gt;while writing a minimum of code&lt;/em&gt;. This is an interesting problem because our design here will have serious ramifications for the overall complexity of our solution.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Art of UNIX Programming&lt;/em&gt; offers advice on this issue:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Its hard to avoid programming overcomplicated monoliths if none of your programs can talk to each other.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;By designing our application’s interface to easily communicate with other programs, we save ourselves the trouble of writing and maintaining two separate interfaces (one for streams and one for files), and negate the need for a lot of complicated code. This is called “The Rule of Composition”, which advises us to keep our program interfaces textual and stream-oriented. In this case, our goal is to design a singular interface that can handle both streams and files with one codepath.&lt;/p&gt;
+
+&lt;h3 id=&quot;interpreting-and-delegating-input&quot;&gt;4.2 Interpreting and delegating input&lt;/h3&gt;
+
+&lt;p&gt;The second thing our application must know is how to interperet this textual input.&lt;/p&gt;
+
+&lt;p&gt;In particular, the challenge is to parse the input into a format the &lt;code&gt;Robot&lt;/code&gt; can eventually understand, without duplicating knowledge of “what are acceptable commands” and without resorting to needlessly complex structures or algorithms.&lt;/p&gt;
+
+&lt;p&gt;In order of operations, we must:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Receive input from the program’s main interface&lt;/li&gt;
+  &lt;li&gt;Handle both single and multiple lines&lt;/li&gt;
+  &lt;li&gt;Separate commands and arguments&lt;/li&gt;
+  &lt;li&gt;Return a representation of the input&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Receiving the input, handling single/multiple lines, and separating commands and arguments is remarkably easy if we’re dealing with text. In Ruby, &lt;a href=&quot;http://www.ruby-doc.org/core-2.1.5/String.html&quot;&gt;Strings&lt;/a&gt; already have everything we need to accomplish this &lt;em&gt;without&lt;/em&gt; resorting to our own logic or, god forbid, regular expressions.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;real&lt;/em&gt; challenge lies in deciding how to represent commands in a way that works well with the rest of our program, not just the &lt;code&gt;Robot&lt;/code&gt;. Soon, our commands will pass through some kind of intermediary object (a delegator), the countours of which will be largely determined by how we design this representation. The trick will be to ensure that the delegator doesn’t require any knowledge of the &lt;code&gt;Robot&lt;/code&gt;’s interface, since this would contradict the principle of “Single Source of Truth”.&lt;/p&gt;
+
+&lt;p&gt;To illustrate, consider the most common approach of using a switch:&lt;/p&gt;
+
+&lt;p&gt;```
+commands.each do |command, args|&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;case command
+when &#39;place&#39;
+    robot.place(args)
+when &#39;move&#39;
+    robot.move
+...
+end end ``` This is a poor solution because it is a duplication of the `Robot`&#39;s interface. Extend or alter `Robot` and you&#39;ll have to change this `case`, too. How we package parse2d input for subsequent delegation is central to avoiding strategies like the one above.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;defining-commands&quot;&gt;4.3 Defining Commands&lt;/h3&gt;
+
+&lt;p&gt;One of the central problems is defining &lt;code&gt;Robot&lt;/code&gt; so that it provides the Single Source of Truth for  “what are acceptable commands.” As demonstrated above, spreading this knowledge around is an easy mistake to make.&lt;/p&gt;
+
+&lt;p&gt;The answer here is simple: the Single Source of Truth for should be the public interface of &lt;code&gt;Robot&lt;/code&gt;. To answer “is this an acceptable command” we can use Ruby’s dynamic messaging system, with calls such as: &lt;code&gt;method_defined?&lt;/code&gt; for validating commands, &lt;code&gt;method_missing&lt;/code&gt; for handling invalid commands, and &lt;code&gt;send&lt;/code&gt; for sending commands.&lt;/p&gt;
+
+&lt;p&gt;Another way to think of this: whenever the application needs to know if a command is valid or not, it should &lt;em&gt;always&lt;/em&gt; get the the answer from &lt;code&gt;Robot&lt;/code&gt; directly.&lt;/p&gt;
+
+&lt;p&gt;The second main concern is in designing &lt;code&gt;Robot&lt;/code&gt; to be extensible. Luckily, Ruby makes it easy to  compose &lt;code&gt;Robot&lt;/code&gt;’s interface with modules and mixins, so the question &lt;em&gt;really&lt;/em&gt; is what kinds of abstractions facilitate rapid extension of the simulation. For exaxmple, if you wanted to introduce a new class of object to the surface - “impassable obstacle” - it would share certain characteristics with  &lt;code&gt;Robot&lt;/code&gt;, but not others.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Design for the future, for it will be here sooner than you think.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thus, modular inheritance makes the most sense here.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Oct 2015 00:00:00 +1100</pubDate>
+        <link>http://rexmortus.github.io/2015/10/20/explanation-of-the-robot-part-1.html</link>
+        <guid isPermaLink="true">http://rexmortus.github.io/2015/10/20/explanation-of-the-robot-part-1.html</guid>
+      </item>
+    
+  </channel>
+</rss>

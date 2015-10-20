@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Explanation of the Robot, Part I &#8211; Rantings of a Stoned Lunatic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The personal blog of Alec Sloman aka rexmortus">
+    <meta name="author" content="Alec Sloman">
+    <meta name="keywords" content="">
+    <link rel="canonical" href="http://rexmortus.github.io/2015/10/20/explanation-of-the-robot-part-1.html">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/basscss.css" type="text/css">
+    <link rel="stylesheet" href="/css/pixyll.css" type="text/css">
+    <link rel="stylesheet" href="/css/solarized-dark.css" type="text/css">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+      <div class="mt2 wrap">
+        <div class="measure">
+          <a href="http://rexmortus.github.io" class="left">Rantings of a Stoned Lunatic</a>
+          <nav class="site-nav right">
+            <a href="/contact/">Contact</a>
+
+          </nav>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        <div class="post-header mb2">
+  <h1 class="py2">Explanation of the Robot, Part I</h1>
+  <span class="post-meta">Oct 20, 2015</span>
+</div>
+
+<article class="post-content">
+  <p>Here are some notes I’ve collected about the famous <em>Robot Challenge</em> (Ruby). For now, it’s called “Part I” because there is still more to write. However for the sake of inviting reason to complete it, it’s published here in an incomplete form.</p>
+
+<h2 id="application-knowledge">4 Application Knowledge</h2>
+
+<p>A useful starting point when designing an application is to ask the question, “What does this application need to know?”</p>
+
+<p>In the robot example, our application needs to know:</p>
+
+<ul>
+  <li>How to read input from the user, both dynamically and from a file</li>
+  <li>How to intrperet input as commands for the robot</li>
+  <li>What are acceptable commands</li>
+  <li>How to move the robot around a surface</li>
+</ul>
+
+<p>In the following section, we will examine each aspect of application knowledge and discuss their particular design concerns.</p>
+
+<h3 id="reading-input">4.1 Reading input</h3>
+
+<p>The very first thing our application must know is how to accept input from the user. According to the brief, there are two modes to accomodate - real-time input, and input from text files.</p>
+
+<p>In particular, the challenge is to build a flexible and robust interface which handles both modes <em>while writing a minimum of code</em>. This is an interesting problem because our design here will have serious ramifications for the overall complexity of our solution.</p>
+
+<p><em>The Art of UNIX Programming</em> offers advice on this issue:</p>
+
+<blockquote>
+  <p>Its hard to avoid programming overcomplicated monoliths if none of your programs can talk to each other.</p>
+</blockquote>
+
+<p>By designing our application’s interface to easily communicate with other programs, we save ourselves the trouble of writing and maintaining two separate interfaces (one for streams and one for files), and negate the need for a lot of complicated code. This is called “The Rule of Composition”, which advises us to keep our program interfaces textual and stream-oriented. In this case, our goal is to design a singular interface that can handle both streams and files with one codepath.</p>
+
+<h3 id="interpreting-and-delegating-input">4.2 Interpreting and delegating input</h3>
+
+<p>The second thing our application must know is how to interperet this textual input.</p>
+
+<p>In particular, the challenge is to parse the input into a format the <code>Robot</code> can eventually understand, without duplicating knowledge of “what are acceptable commands” and without resorting to needlessly complex structures or algorithms.</p>
+
+<p>In order of operations, we must:</p>
+
+<ul>
+  <li>Receive input from the program’s main interface</li>
+  <li>Handle both single and multiple lines</li>
+  <li>Separate commands and arguments</li>
+  <li>Return a representation of the input</li>
+</ul>
+
+<p>Receiving the input, handling single/multiple lines, and separating commands and arguments is remarkably easy if we’re dealing with text. In Ruby, <a href="http://www.ruby-doc.org/core-2.1.5/String.html">Strings</a> already have everything we need to accomplish this <em>without</em> resorting to our own logic or, god forbid, regular expressions.</p>
+
+<p>The <em>real</em> challenge lies in deciding how to represent commands in a way that works well with the rest of our program, not just the <code>Robot</code>. Soon, our commands will pass through some kind of intermediary object (a delegator), the countours of which will be largely determined by how we design this representation. The trick will be to ensure that the delegator doesn’t require any knowledge of the <code>Robot</code>’s interface, since this would contradict the principle of “Single Source of Truth”.</p>
+
+<p>To illustrate, consider the most common approach of using a switch:</p>
+
+<p>```
+commands.each do |command, args|</p>
+
+<pre><code>case command
+when 'place'
+    robot.place(args)
+when 'move'
+    robot.move
+...
+end end ``` This is a poor solution because it is a duplication of the `Robot`'s interface. Extend or alter `Robot` and you'll have to change this `case`, too. How we package parse2d input for subsequent delegation is central to avoiding strategies like the one above.
+</code></pre>
+
+<h3 id="defining-commands">4.3 Defining Commands</h3>
+
+<p>One of the central problems is defining <code>Robot</code> so that it provides the Single Source of Truth for  “what are acceptable commands.” As demonstrated above, spreading this knowledge around is an easy mistake to make.</p>
+
+<p>The answer here is simple: the Single Source of Truth for should be the public interface of <code>Robot</code>. To answer “is this an acceptable command” we can use Ruby’s dynamic messaging system, with calls such as: <code>method_defined?</code> for validating commands, <code>method_missing</code> for handling invalid commands, and <code>send</code> for sending commands.</p>
+
+<p>Another way to think of this: whenever the application needs to know if a command is valid or not, it should <em>always</em> get the the answer from <code>Robot</code> directly.</p>
+
+<p>The second main concern is in designing <code>Robot</code> to be extensible. Luckily, Ruby makes it easy to  compose <code>Robot</code>’s interface with modules and mixins, so the question <em>really</em> is what kinds of abstractions facilitate rapid extension of the simulation. For exaxmple, if you wanted to introduce a new class of object to the surface - “impassable obstacle” - it would share certain characteristics with  <code>Robot</code>, but not others.</p>
+
+<blockquote>
+  <p>Design for the future, for it will be here sooner than you think.</p>
+</blockquote>
+
+<p>Thus, modular inheritance makes the most sense here.</p>
+
+</article>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+  <div class="p2 wrap">
+    <div class="measure mt1 center">
+      <small>
+        Theme crafted with love &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>). Site powered by <a href="https://tinypress.co/">Tinypress</a>.<br>
+        &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll.git">Github</a>.
+      </small>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

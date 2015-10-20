@@ -52,6 +52,7 @@ The *real* challenge lies in deciding how to represent commands in a way that wo
 To illustrate, consider the most common approach of using a switch:
 
 ```
+
 commands.each do |command, args|
 
     case command
@@ -62,6 +63,7 @@ commands.each do |command, args|
     ...
     end
 end
+
 ```
 This is a poor solution because it is a duplication of the `Robot`'s interface. Extend or alter `Robot` and you'll have to change this `case`, too. How we package parse2d input for subsequent delegation is central to avoiding strategies like the one above.
 

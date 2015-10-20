@@ -95,8 +95,16 @@
 
 <p>To illustrate, consider the most common approach of using a switch:</p>
 
-<p>```
-commands.each do |command, args|</p>
+<p>```</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>commands.each do</td>
+      <td>command, args</td>
+    </tr>
+  </tbody>
+</table>
 
 <pre><code>case command
 when 'place'
@@ -104,8 +112,11 @@ when 'place'
 when 'move'
     robot.move
 ...
-end end ``` This is a poor solution because it is a duplication of the `Robot`'s interface. Extend or alter `Robot` and you'll have to change this `case`, too. How we package parse2d input for subsequent delegation is central to avoiding strategies like the one above.
+end end
 </code></pre>
+
+<p>```
+This is a poor solution because it is a duplication of the <code>Robot</code>’s interface. Extend or alter <code>Robot</code> and you’ll have to change this <code>case</code>, too. How we package parse2d input for subsequent delegation is central to avoiding strategies like the one above.</p>
 
 <h3 id="defining-commands">4.3 Defining Commands</h3>
 

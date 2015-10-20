@@ -226,8 +226,16 @@ formulation, transmission, interpretation, and retention of information
 
 &lt;p&gt;To illustrate, consider the most common approach of using a switch:&lt;/p&gt;
 
-&lt;p&gt;```
-commands.each do |command, args|&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;commands.each do&lt;/td&gt;
+      &lt;td&gt;command, args&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;pre&gt;&lt;code&gt;case command
 when &#39;place&#39;
@@ -235,8 +243,11 @@ when &#39;place&#39;
 when &#39;move&#39;
     robot.move
 ...
-end end ``` This is a poor solution because it is a duplication of the `Robot`&#39;s interface. Extend or alter `Robot` and you&#39;ll have to change this `case`, too. How we package parse2d input for subsequent delegation is central to avoiding strategies like the one above.
+end end
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;```
+This is a poor solution because it is a duplication of the &lt;code&gt;Robot&lt;/code&gt;’s interface. Extend or alter &lt;code&gt;Robot&lt;/code&gt; and you’ll have to change this &lt;code&gt;case&lt;/code&gt;, too. How we package parse2d input for subsequent delegation is central to avoiding strategies like the one above.&lt;/p&gt;
 
 &lt;h3 id=&quot;defining-commands&quot;&gt;4.3 Defining Commands&lt;/h3&gt;
 

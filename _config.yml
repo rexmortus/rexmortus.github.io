@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://rexmortus.github.io
+title: Rantings of a Stoned Lunatic
+email: alecs@eml.cc
+author: Alec Sloman
+description: The personal blog of Alec Sloman aka rexmortus
+paginate: 3
+google_analytics: 

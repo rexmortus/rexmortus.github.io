@@ -105,6 +105,57 @@
       </item>
     
       <item>
+        <title>Information &amp; Trust are the Currency</title>
+        <description>&lt;p&gt;As someone who’s never studied business, I feel self-concious about committing words about it to the Internet. Perhaps it’s been said before, but by someone smarter! Anyways… I recently spent a few late nights pondering the question: “what is &lt;em&gt;real value&lt;/em&gt; in business” and this is what came out.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Money is just &lt;em&gt;one&lt;/em&gt; part of the equation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An important part, but perhaps not the &lt;em&gt;most&lt;/em&gt; important. It seems that, in business, for anything to be brought about a rich network of conditions must come together including, rather notably, the creativity and effort of individuals working together. In a given day of business, countless problems, each novel in their own right, require unique solutions. In practice, this means making countless large &amp;amp; small decisions spanning a whole range of domains.&lt;/p&gt;
+
+&lt;p&gt;Money can make precisely &lt;em&gt;zero of these decisions for you&lt;/em&gt;, only &lt;em&gt;individuals&lt;/em&gt; working alone or in a group can do that: through their sheer intelligence, creativity, and effort.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What really counts is &lt;em&gt;information&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Before money ever changes hands, the &lt;em&gt;real value&lt;/em&gt; of a relationship is already developing and taking shape. Information is sent and received in discussions, written words, telephone conversations, and perhaps most importantly of all, emoji. Shared information serves as the basis of an agreement, paving the way to a subsequent deal, sale or transaction.&lt;/p&gt;
+
+&lt;p&gt;The value of a relationship is determined in real-time, starting from the moment when information is first exchanged. It is constantly in flux, always susceptible to being influenced and changed. And not by just you, or other people, but by events and conditions, many of which operate outside the control of any one individual. Despite this, we as individuals retain considerable power over the information we contribute to our relationships. And it seems to me that this information is the foundation and even the &lt;em&gt;dominant factor&lt;/em&gt; in determining their worth.&lt;/p&gt;
+
+&lt;p&gt;Also, there exists potential in our relationships to influence all sorts of outcomes. Our relationships exist as dynamic, distributed graphs of information and meaning shared between nodes of people. Though we are just an individual with limited powers, we are connected to a cultural and technological force with  a proven history of astonishing ingenuity.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The foundation of information is communication&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Information is meaningless in a vacuum. It develops meaning through a simple process. When you &lt;em&gt;contribute&lt;/em&gt; information, you give it meaning through formulation and transmission, and when you &lt;em&gt;receive&lt;/em&gt; information, you give it meaning through interpretation and retention. The result can be a faithful copy, or it can be corrupt. It’s meaning can be the same as the source, or it can be different. Shared information and meaning is the &lt;em&gt;fulcrum of a relationship&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+formulation, transmission, interpretation, and retention of information
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Each of these represents a tree of competencies with their own theories to study and methods to practice, each complete with stages of development and accomplishment. Ultimately, these are are what allow us humans to build relationships. And by the way, it’s a testament to our unbelievably miraculous biology that all of this is possible in the first place!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The foundation of communication is trust&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If I had to pick one factor that always makes a difference in relationships, there’s a clear winner and that is &lt;strong&gt;trust&lt;/strong&gt;. A person is like a box of information. There are certain things you can tell from the outside, but most of the time the valuable information is locked within.&lt;/p&gt;
+
+&lt;p&gt;Trust exists between individuals as the product of good will &amp;amp; shared meaning. It has the effect of unlocking information so that individuals can share it and act upon it. It also behaves as a powerful supporting condition for high-fidelity communication: simply, it is &lt;em&gt;easier&lt;/em&gt; to communicate with someone you trust.&lt;/p&gt;
+
+&lt;p&gt;I believe that information-and-trust is the real currency of business. As a view  it has significant power to explain why some endeavors succeed while others fail. Even the simple act of pondering it leads to an outflow of effective strategies and positive daily choices.&lt;/p&gt;
+
+&lt;p&gt;And finally, it reminds us of our true power as individuals: that through each-other, through the amazing power of our big, networked, Homo-Sapiens brains, we &lt;em&gt;are&lt;/em&gt; powerful. Powerful enough to shape history itself.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Oct 2015 00:00:00 +1100</pubDate>
+        <link>http://rexmortus.github.io/epistles/2015/10/20/information-trust-are-the-currency.html</link>
+        <guid isPermaLink="true">http://rexmortus.github.io/epistles/2015/10/20/information-trust-are-the-currency.html</guid>
+      </item>
+    
+      <item>
         <title>Explanation of the Robot, Part I</title>
         <description>&lt;p&gt;Here are some notes I’ve collected about the famous &lt;em&gt;Robot Challenge&lt;/em&gt; using Ruby as the reference language. For now, it’s called “Part I” because there is still more to write. However so that I’d have reason to complete it, here is section 4: “Application Knowledge”.&lt;/p&gt;
 

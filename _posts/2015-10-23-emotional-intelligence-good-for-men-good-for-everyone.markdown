@@ -42,7 +42,7 @@ My own definition of Emotional Intelligence is simple:
 
 > Thinking, speaking and acting with an empathetic heart.
 
-We yolk our powerful Homo Sapiens brain to a view that says: life (ourselves included) is full of complex, biological animals with a of *great variety* of unpredictable ways, and yet we are all equals in having an emotional core of wanting love and respect. So we train our actions, words and thoughts to fall in line with this understanding, all the while confidently knowing that we're increasing our chances of better life outcomes for ourselves and others.
+We yoke our powerful Homo Sapiens brain to a view that says: life (ourselves included) is full of complex, biological animals with a of *great variety* of unpredictable ways, and yet we are all equals in having an emotional core of wanting love and respect. So we train our actions, words and thoughts to fall in line with this understanding, all the while confidently knowing that we're increasing our chances of better life outcomes for ourselves and others.
 
 When we look at Emotional Intelligence through a more philosophical lens, it's one of the great miracles of life. It connects us to the social order of the Human species. It's the interface of our combined cultural and technological powers. When practiced by the skilled, it is an art. When studied by the scientist, it is the root of a thousand fields. And when we touch it, it touches us back, showing us the way to personal meaning and fulfillment.
 

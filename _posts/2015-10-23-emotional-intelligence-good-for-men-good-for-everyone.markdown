@@ -1,11 +1,11 @@
 ---
 published: true
-title: Emotional Intelligence: Good for Men, Good for Everyone
+title: Emotional Intelligence is Good for Men
 layout: post
 tags: [Emotional Intelligence, men, society]
 categories: [rants]
 ---
-"Emotional Intelligence" is a subject of great interest to me. The phrase was coined in 1996 when I was 10 years old. Once old enough to understand it's main thrust, I began noticing that the prevailing attitude toward it was one of dominantly male-gendered ignorance. For a young man to develop intelligence and vocabulary around his and others' emotions was not a common feature of 1980's-1990's American society. Quite the opposite: it was hellbent on making boys "manly", and this included preventing them from being "girly" in any way. Most of the men and boys I encountered seemed to have little useful information on the subject of emotions, and were famously averse to even discussing them.
+"Emotional Intelligence" is a subject of great interest to me. The phrase was coined in 1996 when I was 10 years old. Once I could understand it's main thrust, I began noticing that the prevailing attitude toward it was one of dominantly male-gendered ignorance. For a young man to develop intelligence and vocabulary around his and others' emotions was not a common feature of 1980's-1990's American society. Quite the opposite: it was hellbent on making boys "manly", and that included preventing them from being "girly" in any way. Most of the men and boys I encountered seemed to have little useful information on the subject of emotions, and were famously averse to even discussing them.
 
 Fortunately, I met a small handful of men and women who helped me learn to appreciate my inner world and develop the vocabulary to describe and discuss it. I am grateful to them because I now see the numerous and substantial benefits it's brought me. I'm saddened that "being in touch with your emotions" is still such a gendered value, because a lot of people, men in particular, are missing out on a powerful and accessible approach toward life and  relationships that could really improve their lot.
 
@@ -23,9 +23,9 @@ On the other hand, a lack of trust is marked by people working at counter-purpos
 
 In a sense, developing Trust is simple. We exchange information and meaning with another person and when enough of it (plus goodwill) builds up, we cross a threshold: Trust arises, and communication takes on the character of ease and fidelity. We access more and deeper information as our pool of shared meaning increases.
 
-While simple in theory, in practice it means making countless practical decisions about what to do, think and say, all of which require our Emotional Intelligence. When we live in a society that says men should not be in touch with their emotions or discuss their feelings, we are inviting danger to our doorstep. Where men do not learn to manage their emotions, we see soaring rates of domestic violence, for example. Australia is a horrifying example: 1 in 4 women have experienced domestic violence at the hands of a male partner. Unsurprisingly, when it comes to social and emotional support, male-to-male networks have long been operating at below capacity. Until men decide that enough is enough and get serious about developing Emotional Intelligence as a daily objective, individuals and society will continue to suffer through all kinds of horrifying problems.
+While simple in theory, in practice it means making countless practical decisions about what to do, think and say, all of which require our Emotional Intelligence. When we live in a society that says men should not be in touch with their emotions or discuss their feelings, we are inviting danger to our doorstep. Where men do not learn to manage their emotions, we see soaring rates of domestic violence. Australia is a disturbing example: 1 in 4 women have experienced domestic violence at the hands of a male partner. Unsurprisingly, when it comes to social and emotional support, male-to-male networks have long been operating at below capacity. Until men decide that enough is enough and get serious about developing Emotional Intelligence as a daily objective, individuals and society will continue to suffer through all manner of horrifying problems.
 
-Fast forward to today, I find it astonishing that men aren't doing more to develop their Emotional Intelligence. In the rapidly shifting cultural and technological landscape of the early Information Age, communications skills are more important than ever. We'd be doing everyone a big favor by studying up.
+Fast forward to today, I find it astonishing that men aren't doing more to develop their Emotional Intelligence. In the rapidly shifting cultural and technological landscape of the early Information Age, Communications skills are more important than ever. We'd be doing everyone a big favor by studying and leveling up.
 
 - What is Emotional Intelligence?
 
